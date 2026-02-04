@@ -33,7 +33,7 @@ class AssTime:
         return AssTime(self.total_hundredths)
 
 
-print(AssTime("0:01:23.45"))
+# print(AssTime("0:01:23.45"))
 
 
 def replace_ass_lyrics(txt_path, ass_path, output_path, ignore_space=True):
@@ -234,5 +234,4 @@ def replace_ass(song_name):
 
 
 if __name__ == '__main__':
-    # replace_ass('何时')
-    replace_ass('only_my_railguns')
+    replace_ass('test1')

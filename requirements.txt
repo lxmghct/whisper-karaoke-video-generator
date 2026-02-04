@@ -1,2 +1,2 @@
-mutagen
 openai-whisper
+moviepy

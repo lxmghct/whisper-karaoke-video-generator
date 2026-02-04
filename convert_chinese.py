@@ -32,7 +32,7 @@ def convert_file(txt_path: str, mode: str, output_path: str):
 if __name__ == "__main__":
     # 示例用法
     convert_file(
-        txt_path='何时/lyrics.txt',
+        txt_path='test1/lyrics.txt',
         mode='s',  # 's' 转简体, 't' 转繁体
-        output_path='何时/output.txt'
+        output_path='test1/output.txt'
     )
