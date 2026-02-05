@@ -67,6 +67,10 @@ outputs/歌名/
 ```
 python main.py --audio your_song.mp3 --image cover.jpg --mode finalize
 ```
+也可以使用自定义的视频（时长需大于等于音频时长）：
+```
+python main.py --audio your_song.mp3 --video my_video.mp4 --mode finalize
+```
 
 最终输出：
 ```
@@ -74,6 +78,11 @@ outputs/歌名/
     lyrics.txt        ← 人工修正后的歌词
     lyrics.ass        ← 最终字幕
     歌名.mp4          ← 带歌词视频
+```
+
+## 4.3. 直接给视频插入歌词
+```
+python main.py --ass inputs/lyrics.ass --video inputs/video.mp4
 ```
 
 ## 5. 项目结构
